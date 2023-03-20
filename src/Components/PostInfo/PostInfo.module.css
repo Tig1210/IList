@@ -1,0 +1,134 @@
+.content {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.image {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  width: 80%;
+  height: 100%;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.image img {
+  width: 80%;
+  height: auto;
+  max-width: 1920px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.postInf {
+  width: 90%;
+  height: 10%;
+  box-shadow: -5px 5px 15px 1px rgb(178, 180, 180);
+  border: 1px solid rgba(246, 123, 0, 1);
+  border-radius: 0px 0px 12px 12px;
+}
+
+.postInf h2 {
+  margin: 0;
+}
+
+.postInf img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.comList {
+  width: 90%;
+  height: 80%;
+  border: 1px solid rgba(246, 123, 0, 1);
+  box-shadow: -5px -5px 15px 1px rgb(178, 180, 180);
+  border-radius: 12px 12px 0px 0px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comCard {
+  border: 1px solid rgba(246, 123, 0, 1);
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.blockCom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 227, 236, 1);
+  border-radius: 12px 12px 12px 0px;
+}
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.user h2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.trash img {
+  width: 18px;
+}
+
+.add {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add img {
+  transition: 1s;
+}
+
+.add:hover img {
+  transform: scale(0.8) rotate(180deg);
+  transition: transform 1s;
+}
